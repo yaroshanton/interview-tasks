@@ -1,0 +1,22 @@
+@media screen and (max-width: 900px) {
+	.item {
+		width: 50%;
+	}
+
+	.item:nth-child(2n+1) > img {
+		border-color: red;
+        margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.item {
+		width: 100%;
+        
+	}
+
+	.item img {
+		border-color: red;
+        margin: 0 auto;
+	}
+}
